@@ -1,0 +1,7 @@
+Group Members: Daixi Shen, Ryan Rickey
+
+We implemented the waitUntil() and timerInterrupt() methods in Alarm, join() and finish() in KThread, sleep(), wake(), wakeAll(), and sleepFor() in Condition2, and the exchange() methods in Rendezvous. To accomplish many of these, we added data structures to each class to keep track of which threads were sleeping or which condition variables were being waited on.
+
+Overall, our code worked relatively well. It passed the various test cases that we wrote, which we structured aroud the specifications given on the project page. Like suggested, we started testing using the simple cases provided and built up from there to test different  scenarios. We started with small and controlled tests, then worked up to test with large amouts of threads/conditions and randomness. Copying and pasting test cases and aiming to name them aptly helped us see progress over time and recall what we had already tested.
+
+For each of the 5 tasks, each of us implemented our own methods and tests. We spoke with one another at a high level to flush out our thoughts / questions about approaches, and convened to discuss the results of different test cases. Daixi was often able to get an his implementation up and running quickly, and Ryan tended to spend more time testing before moving on to the next task.

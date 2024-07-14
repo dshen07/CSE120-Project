@@ -1,0 +1,7 @@
+Group Members: Daixi Shen, Ryan Rickey
+
+We implemented the handleCreate(), handleJoin(), handleExit(), handleWrite(), handleUnlink(), handleRead(), handleExec(), handleOpen(), and handleClose() methods in UserProcess class. We implemented data structures in UserKernel to keep track of free phsycial page numbers. We also have global counter for active processes in UserKernel. We implemented all the required methods according to instructions in syscall.h. 
+
+Overall, our code worked relatively well. It passed the various test cases that we wrote, which we structured aroud the specifications given on the project page. Like suggested, we started testing using the simple cases provided and built up from there to test different  scenarios. We started with small and controlled tests, then worked up to test with large amouts of threads/conditions and randomness. Copying and pasting test cases and aiming to name them aptly helped us see progress over time and recall what we had already tested.
+
+For each of the 3 tasks, each of us implemented our own methods and tests. We spoke with one another at a high level to flush out our thoughts / questions about approaches, and convened to discuss the results of different test cases. Daixi was often able to get an his implementation up and running quickly, and Ryan tended to spend more time testing before moving on to the next task.
